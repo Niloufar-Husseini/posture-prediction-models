@@ -1,0 +1,27 @@
+# # Model weights (large binary files)
+# models/**/*.h5
+# models/**/*.pth
+# models/**/*.pt
+# models/**/*.ckpt
+
+# Notebook temporary files
+.ipynb_checkpoints/
+# *.ipynb
+
+# Python/IDE files
+__pycache__/
+*.pyc
+.env
+.venv
+.python-version
+
+# Data folders (large datasets)
+data/
+*.csv
+*.npy
+*.npz
+
+# System/IDE files
+.DS_Store
+.vscode/
+.idea/

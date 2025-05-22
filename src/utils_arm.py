@@ -98,7 +98,7 @@ def read_test(file_path, segment_name = 'All'):
   file_ls = []
   
   for item in os.listdir(file_path):
-    print(item)
+    # print(item)
     path2item = os.path.join(file_path, item)
     df = pd.read_csv(path2item, header=None).to_numpy()
     simple_ftrs = df[:7, -1]
